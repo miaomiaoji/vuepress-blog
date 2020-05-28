@@ -6,7 +6,7 @@ set -e
 # 上传
 git init
 git add -A
-git commit -m 'deploy'
+git commit -m 'update'
 
 # 上传至
 git push -f git@github.com:miaomiaoji/vuepress-blog.git master
